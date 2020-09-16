@@ -46,11 +46,11 @@ body {
   line-height: 2.25em;
 }
 
-/*.form-check span:hover {
+.form-check span:hover {
   background-color: lightgray;
 }
 
-.form-check input,
+/*.form-check input,
 .checked,
 .form-check input:checked ~ .unchecked { display: none; }
 
