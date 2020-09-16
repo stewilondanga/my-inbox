@@ -28,13 +28,13 @@ body {
   background-color: white;
 }
 
-/*.form-check {
+.form-check {
   position: relative;
   padding-left: 75px;
   padding-top: 10px;
 }
 
-.form-check span {
+/*.form-check span {
   position: absolute;
   top: 0;
   left: 0;
