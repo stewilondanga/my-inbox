@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,50 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+body {
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: dodgerblue;
+}
+
+.container {
+  width: 550px;
+  margin: 150px auto;
+  padding: 100px 50px;
+  border-radius: 15px;
+  border: solid 5px #DDEEF0;
+  background-color: white;
+}
+
+.form-check {
+  position: relative;
+  padding-left: 75px;
+  padding-top: 10px;
+}
+
+.form-check span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 60px;
+  border: solid 1px black;
+  box-shadow: 2px 2px 2px gray;
+  text-align: center;
+  line-height: 2.25em;
+}
+
+.form-check span:hover {
+  background-color: lightgray;
+}
+
+.form-check input,
+.checked,
+.form-check input:checked ~ .unchecked { display: none; }
+
+.form-check input:checked ~ .checked { display: block; }
+
 
 .containers {
   width: 520px;
