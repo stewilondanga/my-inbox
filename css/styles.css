@@ -56,10 +56,11 @@ body {
   display: none;
 }
 
-/*.form-check input:checked ~ .checked { display: block; }
+.form-check input:checked~.checked {
+  display: block;
+}
 
-
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
