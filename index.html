@@ -21,6 +21,16 @@
         </a>
     </div>
 
+    <div id="app" class="container">
+      <label class="form-check">
+        I would {{ receiveNewsletter ? '' : 'not' }} like to receive exciting news in my inbox
+        <input type="checkbox" v-model="receiveNewsletter">
+        <span class="unchecked">NO</span>
+        <span class="checked">YES</span>
+      </label>
+    </div>
+
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
