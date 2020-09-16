@@ -6,3 +6,8 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+new Vue({
+  el: '#app',
+  data: { receiveNewsletter: true },
+});
