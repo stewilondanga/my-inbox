@@ -34,7 +34,7 @@ body {
   padding-top: 10px;
 }
 
-/*.form-check span {
+.form-check span {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,7 +46,7 @@ body {
   line-height: 2.25em;
 }
 
-.form-check span:hover {
+/*.form-check span:hover {
   background-color: lightgray;
 }
 
