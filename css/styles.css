@@ -19,7 +19,7 @@ body {
   height: 1.5em;
 }
 
-/*.container {
+.container {
   width: 550px;
   margin: 150px auto;
   padding: 100px 50px;
@@ -28,7 +28,7 @@ body {
   background-color: white;
 }
 
-.form-check {
+/*.form-check {
   position: relative;
   padding-left: 75px;
   padding-top: 10px;
