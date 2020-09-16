@@ -50,11 +50,13 @@ body {
   background-color: lightgray;
 }
 
-/*.form-check input,
+.form-check input,
 .checked,
-.form-check input:checked ~ .unchecked { display: none; }
+.form-check input:checked~.unchecked {
+  display: none;
+}
 
-.form-check input:checked ~ .checked { display: block; }
+/*.form-check input:checked ~ .checked { display: block; }
 
 
 .containers {
